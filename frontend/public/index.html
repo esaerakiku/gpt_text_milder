@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* 略 */
+
+      /* 1. ボタンのスタイル */
+      button {
+        background-color: #79ACE8;
+        color: white;
+        border: 1px solid #ccc;
+        padding: 1em 2em;
+        transition: background-color 0.3s ease;
+        width: 100%; /* ボタンの幅をテキスト入力部分の幅と同じに */
+      }
+
+      button:active {
+        background-color: #263E91;
+      }
+      
+      textarea {
+        border-radius: 5px; /* テキストエリアの角を少し丸くする */
+        border: 1px solid #ccc; /* テキストエリアの枠線を少し薄くする */
+        width: 100%; /* テキストエリアの幅を固定する */
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      #root {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+      }
+
+      @media (min-width: 768px) {
+        #root {
+          width: 50%;
+        }
+      }
+    </style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* viewportの高さに合わせてコンテナの高さを調節 */
+    background-color: white; /* バックグラウンドカラーはお好みで調節 */
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px; /* PC画面での最大幅 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* box-shadowを追加 */
+    padding: 20px;
+    background-color: white; /* boxの背景色 */
+    border: 1px solid #ccc; /* フチを追加 */
+  }
+  
+  .text-input {
+    width: 100%;
+    height: 100px; /* テキストエリアの高さを固定 */
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+  }
+  
+  .improve-button {
+    width: 100%;
+    padding: 3px; /* ボタンの高さを半分に */
+    margin-bottom: 1em;
+    font-size: 1.4em; /* ボタンの文字を少し大きく */
+    font-weight: bold;
+  }
+  
+  .output-text {
+    width: 100%;
+    word-wrap: break-word;
+  }
+  
